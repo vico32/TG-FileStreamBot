@@ -67,7 +67,8 @@ Either you could locally host or deploy on ~~[Heroku](https://heroku.com)~~ Free
 ### Host it on VPS or Locally
 
 ```sh
-git clone https://github.com/EverythingSuckz/TG-FileStreamBot
+sudo apt update && sudo apt install git python3 python3-pip python3.8-venv -y
+git clone https://github.com/vico32/TG-FileStreamBot.git
 cd TG-FileStreamBot
 python3 -m venv ./venv
 . ./venv/bin/activate
